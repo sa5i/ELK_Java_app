@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ELK-STACK-EXAMPLE
+
+
+server:
+  port: 9898
+
+logging:
+  file: /Users/sasi/Desktop/ELK/logs/elk_stack.log
+
