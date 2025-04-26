@@ -22,6 +22,19 @@
    		 <sonar.password>admin1</sonar.password>	
 	</properties>
 
+	<distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <name>ELK Release Nexus Repository</name>
+        <url>http://13.60.86.20:8081/repository/ELK-release/</url>
+    </repository>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <name>ELK Nexus Snapshot Repository</name>
+        <url>http://13.60.86.20:8081/repository/ELK-snapshot/</url>
+    </snapshotRepository>
+</distributionManagement>
+
 
 
 	<dependencies>
