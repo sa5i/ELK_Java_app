@@ -1,4 +1,4 @@
-package com.javatechie.elk;
+package com.javatechie.java;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

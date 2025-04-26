@@ -1,0 +1,17 @@
+2025-04-26 13:19:40.986  INFO 8521 --- [main] c.j.java.ElkStackExampleApplication      : Starting ElkStackExampleApplication on sasis-MacBook-Air.local with PID 8521 (/Users/sasi/Desktop/DevOps/ELK_Java_app/target/classes started by sasi in /Users/sasi/Desktop/DevOps/ELK_Java_app)
+2025-04-26 13:19:40.995  INFO 8521 --- [main] c.j.java.ElkStackExampleApplication      : No active profile set, falling back to default profiles: default
+2025-04-26 13:19:42.712  INFO 8521 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9898 (http)
+2025-04-26 13:19:42.724  INFO 8521 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-26 13:19:42.724  INFO 8521 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2025-04-26 13:19:42.812  INFO 8521 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-26 13:19:42.812  INFO 8521 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1714 ms
+2025-04-26 13:19:43.146  INFO 8521 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-04-26 13:19:43.488  INFO 8521 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9898 (http) with context path ''
+2025-04-26 13:19:43.493  INFO 8521 --- [main] c.j.java.ElkStackExampleApplication      : Started ElkStackExampleApplication in 3.406 seconds (JVM running for 4.008)
+2025-04-26 13:19:54.406  INFO 8521 --- [http-nio-9898-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 13:19:54.408  INFO 8521 --- [http-nio-9898-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-26 13:19:54.427  INFO 8521 --- [http-nio-9898-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2025-04-26 13:19:54.475 ERROR 8521 --- [http-nio-9898-exec-1] c.j.java.ElkStackExampleApplication      : User Not Found with ID : 12
+2025-04-26 13:19:55.187 ERROR 8521 --- [http-nio-9898-exec-2] c.j.java.ElkStackExampleApplication      : User Not Found with ID : 12
+2025-04-26 13:19:59.840  INFO 8521 --- [http-nio-9898-exec-5] c.j.java.ElkStackExampleApplication      : user found : User(id=1, name=John)
+2025-04-26 13:20:08.070  INFO 8521 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
